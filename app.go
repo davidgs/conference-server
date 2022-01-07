@@ -65,7 +65,7 @@ var attendeeCollection *mgo.Collection
 const host = "davidgs.com"
 const port = "27017"
 const user = "davidgs"
-const password = "Toby66.Mime!"
+const password = ""
 
 func (a *App) Initialize() error {
 	rootPEM, err := ioutil.ReadFile("./combined")
